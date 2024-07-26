@@ -1,0 +1,5 @@
+select count(e_name) as total_employee from employee;
+select max(age) as max_age from employee;
+select min(age) as min_age from employee;
+select e_name, salary from employee order by salary asc;
+select salary, count(*) as employee_count from employee group by salary;
